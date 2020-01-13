@@ -44,9 +44,9 @@ p {
 }
 
 #enter-button {
-    border: 5cm;
+    border: 4cm;
     padding: 10px 17px;
-    border-radius: 8px;
+    border-radius: 6px;
     color: palevioletred;
     background-color: peachpuff;
     transition: all 0.50s ease;
@@ -62,8 +62,53 @@ p {
     color: red;
 }
 
-u1 {
+ul  {
     text-align: left;
     margin-top: 5cm;
 }
 
+li {
+    list-style: none;
+    padding: 10px 17px;
+    color: seashell;
+    text-transform: capitalize;
+    font-weight: 700;
+    border: 2px solid plum;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: thistle;
+    transition: all 0.50s ease;
+    -webkit-transition: all 0.50s ease;
+    -moz-transition: all 0.50s ease; 
+    -ms-transform: all 0.50s ease;
+    -o-transition: all 0.50s ease;
+}
+
+li:hover {
+    background-color: thistle;
+}
+
+li > button {
+    font-weight: 700;
+    background: none;
+    border: none;
+    float: right;
+    color: teal;
+    font-weight: 900;
+}
+
+input {
+    border-radius: 2cm;
+    min-width: auto;
+    padding: 0.25cm;
+    border: 1cm;
+}
+
+#done {
+    background-color: indigo;
+    color: khaki;
+}
+
+#delete {
+    display: none;
+}
